@@ -1,0 +1,25 @@
+
+
+
+.tecno {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tecno__group{
+
+    text-align: center;
+}
+
+.tecno__group__icon {
+
+    color: $green;
+    font-size: 3rem;
+    margin: 0 .5em;
+}
+
+.tecno__group__text{
+    color: $green;
+}

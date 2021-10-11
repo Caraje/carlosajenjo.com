@@ -1,0 +1,57 @@
+
+
+.menubar {
+    position: sticky;
+    top: 0;
+    background-color: rgba($light-grey, 0.6);
+    margin: 0 auto;
+    border-bottom: 5px solid $pink;
+    backdrop-filter: blur(20px) ;
+
+}
+
+.menubar__container{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.3em;
+}
+
+.menubar__img {
+    max-width: 10em;
+    padding-left: .5em;
+    // text-shadow: 0 0 5px 5px $pink;
+}
+
+@media (min-width: $tablet) {
+    .menubar__img{
+        max-width: 15em;
+    }
+}
+
+.menubar__btn{
+    border: none;
+    font-size: 2rem;
+    color: $dark;
+    background-color: transparent;
+
+
+}
+
+.menubar__hidden-menu {
+    background-color: $light-grey;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 2px solid $pink;
+    transition: 0.5s ease-in-out;
+    
+    
+}
+
+hidden-menu {
+    top: -1000px;
+    transition: 0.5s ease-in-out;
+}

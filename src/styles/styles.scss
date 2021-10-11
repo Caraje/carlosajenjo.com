@@ -1,0 +1,20 @@
+// Este archivo tiene las configurariones globales de la aplicacion.
+@import './base/settings';
+@import './base/base';
+
+@import './base/normalize';
+
+
+@import './components/home/HomeScreen';
+@import './components/about/AboutScreen';
+@import './components/contact/ContactScreen';
+
+
+@import './components/ui/NavMenu';
+@import './components/ui/SocialNetworksMenu';
+@import './components/ui/Menubar';
+@import './components/ui/Tecnologies';
+@import '/src/styles/components/ui/Footer';
+@import './components/portfolio/CardPortfolio';
+@import './components/portfolio/TecPortfolio';
+@import './components/portfolio/PortfolioProyect'

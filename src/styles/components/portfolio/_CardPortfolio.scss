@@ -1,0 +1,76 @@
+.cardPortfolio {
+    display: flex;
+    // flex-wrap: wrap;
+    width: 40em;
+    background-color: $white;
+    margin-bottom: 1.4em;
+    box-shadow: 0 0 10px 5px rgba($dark, .2) ;
+    border-radius: 5px;
+}
+
+
+.cardPortfolio__img{
+    max-width: 40%;
+    object-fit: cover;
+    margin: 1em;
+
+}
+
+
+.cardPortfolio__text{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 1em 1em 1em 0;
+
+
+}
+
+.cardPortfolio__text__title {
+    text-align: left;
+    font-family: $titles;
+    color: $pink;
+    font-size: 2rem;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.cardPortfolio__text__desc {
+    text-align: left;
+    padding: 0.3em;
+}
+
+.cardPortfolio__text__link{
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: .5em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $dark;
+    transition: color .2s ease-in-out ;
+    &:hover {
+        // background-color: $pink;
+        color: $pink
+    }
+}
+
+.cardPortfolio__text__tec {
+    display: flex;
+    vertical-align:bottom;
+    // background-color: $pink;
+    color: $light-grey;
+    // padding: 0.5em;
+
+}
+
+.cardPortfolio__text__tec__img{
+    margin: 0.2em;
+}
+
+
+.portolio__container_title{
+    font-size: 3rem;
+    text-align: center;
+}

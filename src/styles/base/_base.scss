@@ -1,0 +1,44 @@
+
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+h2 {
+    font-family: $titles;
+    color: $pink;
+    font-size: 2rem;
+    // text-align: center;
+}
+
+body {
+    background-color: $light-grey;
+    font-family: $parraphs;
+  
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+ 
+}

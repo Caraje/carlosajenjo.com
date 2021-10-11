@@ -1,0 +1,153 @@
+
+
+
+.home {
+    // background-color: #333;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    // width: 100%;
+
+}
+
+.home__logo {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    // width: 100%;
+}
+
+.home__logo__img {
+    width: 85%;
+    // width: 50%;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 50px rgba($pink, 0.4));
+}
+
+@media (min-width: $tablet){
+    .home__logo__img {
+        width: 30%;
+    }
+}
+
+.home__logo__text {
+    font-family: $titles;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.home__title {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    color: $dark;
+}
+
+
+
+.about {
+    background-color: $pink;
+    
+}
+
+.about__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-gap: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+
+.about__container__img {
+    width: 18em;
+    object-fit: cover;
+    padding: 1em 0 1em 0;
+    
+}
+
+.about__container__text {
+    width: 20em;
+    padding-bottom: 3em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.about__container__text__parragraph{
+    color: $light-grey;
+    font-size: 0.8rem;
+    & span {
+        color: $dark;
+        font-weight: 900;
+        font-size: 0.9rem;
+    }
+    
+}
+
+.about__container__text__title{
+    color: $dark;
+    font-size: 2rem;
+}
+
+.about__buttom {
+    display: inline-block;
+    width: 100%;
+    background-color: $green;
+    color: $light-grey;
+    text-align: center;
+    text-decoration: none;
+    padding: .5em 3em;
+    margin: 0 auto;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+    
+    &:hover {
+        background-color: $dark;
+    }
+}
+
+.tecnologies__title{
+    color: $pink;
+    text-align: center;
+    text-align: center;
+
+
+}
+
+
+.portfolio{
+    text-align: center;
+    margin-bottom: 3em ;
+    margin: 0 auto
+}
+
+
+
+.portfolio__container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: $dark;
+    border-top: 6px solid $pink;
+
+}
+

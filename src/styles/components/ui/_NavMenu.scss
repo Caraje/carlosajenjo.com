@@ -1,0 +1,55 @@
+
+
+.navmenu {
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+@media (min-width: $tablet){
+    .menu {
+        flex-direction: row
+    }
+    
+}
+
+.menu__link{
+    text-decoration: none;
+    color: $dark;
+    font-size: 1rem;
+    padding: .5em;
+    text-align: center;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+    &:hover{
+        color: $pink;
+        filter: drop-shadow(0 0 10px rgba($pink, 0.6));
+    }
+}
+
+.menu__link:last-child {
+    color: $pink;
+    font-weight: 700;
+    
+    &:hover{
+        color: $green;
+        filter: drop-shadow(0 0 10px rgba($green, 0.6));
+
+    }
+}
+
+.menu-disabled {
+    display: none;
+}
+
+
+.menu-active {
+    color: $pink;
+    filter: drop-shadow(0 0 10px rgba($pink, 0.6));
+}

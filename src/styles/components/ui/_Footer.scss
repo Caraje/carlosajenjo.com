@@ -1,0 +1,13 @@
+
+.socialnetwork__icon-footer{
+    color: $light-grey;
+    font-size: 2rem;
+    padding: .3em;
+
+    
+    &:hover{
+        color: $pink;
+        filter: drop-shadow(0 0 10px rgba($pink, 0.6));
+    }
+
+}
