@@ -60,7 +60,8 @@ export const PortfolioProyect = () => {
                                 ))
                             }
                             </div >
-                            <div>
+
+                            <div className="portfolioProject__info__text__container__tec__buttons">
                             {
                                     github 
                                     ? 
@@ -79,6 +80,7 @@ export const PortfolioProyect = () => {
                                     : null                     
                                 }
                             </div>
+                            
                         </div>
                         {
                             pictures ?

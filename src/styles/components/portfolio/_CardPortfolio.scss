@@ -1,11 +1,18 @@
 .cardPortfolio {
     display: flex;
-    // flex-wrap: wrap;
-    width: 40em;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 40em;
     background-color: $white;
     margin-bottom: 1.4em;
     box-shadow: 0 0 10px 5px rgba($dark, .2) ;
     border-radius: 5px;
+}
+
+@media (min-width: $tablet){
+    .cardPortfolio {
+        flex-wrap: nowrap;
+    }
 }
 
 

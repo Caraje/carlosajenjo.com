@@ -6,9 +6,10 @@ import { MenuBar } from '../ui/MenuBar'
 
 export const AboutScreen = () => {
     return (
+        <>
+                <MenuBar />
         <div className="contenedor">
             <header>
-                <MenuBar />
             </header>
             <main className="container aboutpage">
                 <section className="about-container">
@@ -77,5 +78,6 @@ export const AboutScreen = () => {
             </footer>
 
         </div>
+        </>
     )
 }

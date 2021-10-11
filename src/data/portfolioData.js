@@ -22,7 +22,7 @@ export const cardsPortfolio = [
         'id' : '02',
         'title' : 'GifApp',
         'description' : [
-            'Usando React, se ha creado una aplicación que hace peticiones a la Apu de giphy.com con la búsqueda que introduzca el usuario.',
+            'Usando React, se ha creado una aplicación que hace peticiones a la Api de giphy.com con la búsqueda que introduzca el usuario.',
             'Además, en la pantalla principal se muestran categorías predefinidas por la propia aplicación como los gifs más populares, sobre videojuegos, cine y otras que se muestran en función de los datos recibidos desde giphy.com.',
             'Los estilos se los he dado usando Sass'
         ], 
