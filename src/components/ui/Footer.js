@@ -21,23 +21,23 @@ export const Footer = () => {
                 <i className="socialnetwork__icon-footer fab fa-github-square"></i>
             </a>
 
-            <a href="https://www.instagram.com/carlosajenjo_com/" 
+            <a href="https://www.instagram.com/caraje_dev/" 
                     target="_blank" 
                     rel="noreferrer">
                 <i className="socialnetwork__icon-footer fab fa-instagram"></i>
             </a>
 
-            <a href="https://www.twitch.tv/caraje_" 
+            {/* <a href="https://www.twitch.tv/caraje_" 
                     target="_blank" 
                     rel="noreferrer">
                 <i className="socialnetwork__icon-footer fab fa-twitch"></i>
-            </a>
-
+            </a> */}
+{/* 
             <a href="https://www.youtube.com/channel/UCiY_SNkOx5yAjlujkrJtmCw" 
                     target="_blank" 
                     rel="noreferrer">
                 <i className="socialnetwork__icon-footer fab fa-youtube"></i>
-            </a>
+            </a> */}
 
         </div>
     )
