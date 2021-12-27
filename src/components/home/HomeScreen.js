@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { PortfolioSeccion } from '../Portfolio/PortfolioSeccion'
 import { Footer } from '../ui/Footer'
 
@@ -39,7 +40,10 @@ export const HomeScreen = () => {
                         <p className=" about__container__text__parragraph">                        
                             Y soy una de <span>las mejores opciones </span> para tu proyecto o negocio.
                         </p>
-                        <a className="about__buttom" href="/about" rel="noreferrer">Leer Más</a>
+                        <Link className="about__buttom" to={`/about`} >
+                            Leer Más
+                        </Link>
+                        {/* <a className="about__buttom" href="/about" rel="noreferrer">Leer Más</a> */}
                     </div>
                 </div>
             </main>

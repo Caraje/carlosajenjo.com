@@ -55,5 +55,24 @@ export const cardsPortfolio = [
         'demo': 'https://blackjack-caraje.netlify.app/',
 
     },
+    {
+        
+        'id' : '04',
+        'title' : 'Todo-App',
+        'description' : [
+            'Aplicación de tareas usando nada más que Javascript vanilla, creada como practicas de los conocimientos adquiridos durante mi formación.',
+            'La intención es crear una aplicación usando únicamente JavaScript vanilla, haciendo uso del guardado y la carga en el LocalStorage, además de jugar con el DOM.',
+            'Aunque yo he creado el código de la aplicación desde cero, he usado para inspirarme en cuanto al diseño de la app, diferentes aplicaciones similares encontradas en internet, ya que la intención del ejercicio no era diseñar la aplicación, si no hacer que funcionara correctamente.',
+
+        ], 
+        'descriptionShort' : 'App de tareas usando Javascript Vanilla', 
+        'imagen' : 'portada.jpg',
+        'tecnologies': [ 'html', 'css', 'js' ],
+        'url' : 'TodoApp-Vanilla',
+        'pictures' : '',
+        'github': 'https://github.com/Caraje/Todo-Js-Vanilla',
+        'demo': 'https://caraje.github.io/Todo-Js-Vanilla/',
+
+    },
 
 ]
